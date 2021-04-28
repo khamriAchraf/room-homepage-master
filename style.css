@@ -1,0 +1,110 @@
+body {
+    font-family: 'Spartan';
+}
+
+/* Navigation Bar */
+
+.navbar {
+    position: absolute;
+    z-index: 1;
+    padding: 3% 4%;
+}
+
+.navbar-brand {
+    padding-right: 35px;
+    font-size: 22px;
+}
+
+.nav-item {
+    padding: 8px;
+    font-size: 11px;
+}
+
+/* Carousel */
+
+.carousel {
+    position: relative;
+}
+
+.right-pane {
+    padding: 100px;
+    text-align: left;
+    background: white;
+}
+
+.right-pane h2 {
+    font-weight: 700;
+}
+
+.right-pane p{
+    font-size: 12px;
+    margin-top: 25px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.right-pane a {
+    margin-top: 20px;
+    font-size: 12px ;
+    letter-spacing: 10px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.arrow {
+    position: relative;
+    transition: transform 0.5s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.arrow-hover {
+    
+    transform: translateX(5px);
+}
+
+.control {
+    padding: 0;
+    right: auto;
+    height: 60px;
+    background-color: black !important;
+    opacity: 1;
+}
+
+.hero {
+    transition: transform 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.hero-hover {
+    transform: scale(1.1);
+}
+
+.control:hover {
+}
+
+/* About */
+
+.about {
+    padding:70px 50px;
+    background: white;
+}
+
+.about h3 {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.about p {
+    font-size: 12px;
+    margin-top: 25px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-container {
+    overflow: hidden;
+}
+
